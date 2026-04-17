@@ -1,2 +1,2 @@
 # ensemble2026_task3
-This is the solution for the task3 of the ensemble hackathon 2026.
+This is the solution for the task3 of the ensemble hackathon 2026. Complete description of the task is provided in the task3.pdf file. It uses mix of LGB and XGB regressors (0.5 weight for each), as it gave better results than using just one of them. Optuna was used to find the best hyper parameters. The data was aggregated monthly, as 5 minute periods are a bit too small chunks and would result in high computational overload.
